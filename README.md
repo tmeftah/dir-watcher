@@ -1,6 +1,8 @@
 # dir-watcher
 watch folder for changes and copy or move files to another distination folder.
 
+![Alt text](/Screenshot.png?raw=true "Screenshot")
+
 # Pyinstaller command
 you have to install pyinstaller on your system
 
