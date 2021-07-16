@@ -11,7 +11,7 @@ open the "conf.cfg" file and change the variable as desired.
 * **dist_path** = the distination folder, where files have to be moved/copied to
 * **operation** = *'copy'* for copy/paste or *'move'* to cut/past
 
-the search pattern on *src_path* are set according pathon package "glob.glob". for more infomation please see https://docs.python.org/3/library/glob.html
+the search pattern on *src_path* are set according python package "glob.glob". for more infomation please see https://docs.python.org/3/library/glob.html
 after you setup the conf.cfg file you can start the "app.py" file
 ```python
 python app.py
