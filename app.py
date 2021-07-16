@@ -6,7 +6,11 @@ import time
 import shutil
 import configparser
 import logging
+import ctypes
 
+
+# set title of the console window
+ctypes.windll.kernel32.SetConsoleTitleW("Dir-Watcher by Tarek Meftah")
 
 logging.basicConfig(filename='log.log', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
